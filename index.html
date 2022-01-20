@@ -1,0 +1,581 @@
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <!-- Your preferred icon library here -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+  <!-- Import all social provider styles from Bulma-Social -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@2/css/all.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- header -->
+ <nav class="navbar has-shadow has-background-danger-light">
+   <!-- logo -->
+   <div class="navbar-brand">
+     <a  class="navbar-item">
+       <img src="worldometers-logo.gif" alt="logo" style="max-height: 70px;">
+     </a>
+     <a  class="navbar-burger" id="burger">
+       <span></span>
+       <span></span>
+       <span></span>
+     </a>
+   </div>
+   <!-- menu -->
+   <div class="navbar-menu" id="nav-links">
+     <div class="navbar-end">
+       <a class="navbar-item has-text-info-dark">Coronavirus</a>
+       <a class="navbar-item has-text-info-dark">Population</a>
+     </div>
+   </div>
+ </nav> 
+ <!-- body -->
+  <!-- COVID TAG -->
+  <div class="tags mt-6" style="display: flex; justify-content: center;">
+    <span class="tag is-danger is-large is-rounded">
+      COVID-19 CORONAVIRUS PANDEMIC
+    </span>
+  </div>
+
+  <div class="has-text-centered is-size-4-desktop">Last updated: February 17, 2021, 23:24 GMT</div>
+
+  <!-- breadcrumbs -->
+  <div class="section pt-4 pb-0 mt-4">
+    <nav class="breadcrumb has-succeeds-separator is-centered is-medium">
+      <ul class="container">
+        <li><a class="has-text-primary-dark">Graphs</a></li>
+        <li><a class="has-text-primary-dark">Countries</a></li>
+        <li><a class="has-text-primary-dark">News</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- corona cases -->
+  <section class="section">
+    <div class="has-text-centered is-size-1-desktop is-size-2-tablet is-size-3-mobile has-text-dark">Coronavirus Cases:</div>
+    <div class="has-text-centered is-size-1-desktop is-size-2-tablet is-size-3-mobile has-text-grey">110,793,571</div>
+    <div class="has-text-centered is-size-5-desktop is-size-6-tablet is-size-6-mobile"><a>view by country</a></div>
+  </section>
+
+  
+    <div class="has-text-centered is-size-1-desktop is-size-2-tablet is-size-3-mobile has-text-dark">Deaths:</div>
+    <div class="has-text-centered is-size-1-desktop is-size-2-tablet is-size-3-mobile has-text-danger-dark">2,450,330</div>
+    <section class="section">
+        <div class="has-text-centered is-size-1-desktop is-size-2-tablet is-size-3-mobile has-text-dark">Recovered:</div>
+        <div class="has-text-centered is-size-1-desktop is-size-2-tablet is-size-3-mobile has-text-info-dark">85,725,444</div>
+    </section>
+    <!-- graph of active cases -->  
+    <section class="section">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <nav class="panel is-link">
+              <p class="panel-heading has-text-centered is-italic has-text-weight-light">
+                ACTIVE CASES
+              </p>
+              <div class="container">
+                <h1 class="title is-4 has-text-centered mt-2">21,933,957</h1>
+                <h2 class="subtitle is-6 has-text-centered">Currently Infected Patients</h2>
+              </div>
+              <div class="py-3"></div>
+              <div class="container">      
+                    <h1 class="title is-5 has-text-left ml-4"><span class="has-text-primary">21,841,591</span> (99.6%)</h1>
+                    <h2 class="subtitle is-6 has-text-left ml-4 mb-0">in Mild Condition</h2>
+                    <h1 class="title is-5 has-text-right mr-4 mt-0"><span class="has-text-danger">92,366</span> (0.4%)</h1>
+                    <h2 class="subtitle is-6 has-text-right mr-4">Serious or Critical</h2>
+              </div>
+              <div class="has-text-centered is-size-5-desktop is-size-6-mobile"><a class="has-text-success">Show Graph</a></div>
+            </nav>
+          </div>
+          <div class="column">
+            <nav class="panel is-link">
+              <p class="panel-heading has-text-centered is-italic has-text-weight-light">
+                CLOSED CASES
+              </p>
+              <div class="container">
+                <h1 class="title is-4 has-text-centered mt-2">91,066,968</h1>
+                <h2 class="subtitle is-6 has-text-centered">Cases which had an outcome:</h2>
+              </div>
+              <div class="py-3"></div>
+              <div class="container">      
+                    <h1 class="title is-5 has-text-left ml-4"><span class="has-text-info">88,561,557</span> (97%)</h1>
+                    <h2 class="subtitle is-6 has-text-left ml-4 mb-0">Recovered / Discharged</h2>
+                    <h1 class="title is-5 has-text-right mr-4 mt-0"><span class="has-text-danger">2,505,411</span> (3%)</h1>
+                    <h2 class="subtitle is-6 has-text-right mr-4">Deaths</h2>
+              </div>
+              <div class="has-text-centered is-size-5-desktop is-size-6-mobile"><a class="has-text-success">Show Graph</a></div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container has-text-grey">
+        The charts above are updated after the close of the day in GMT+0.<a> See more graphs</a>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <p class="is-size-4 has-text-weight-bold is-family-primary pb-4">Reported Cases and Deaths by Country or Territory</p>
+      </div>
+      <div class="container">
+        <p>The <span class="has-text-weight-bold">coronavirus</span> COVID-19 is affecting <span class="has-text-weight-bold">219 countries and territories. The day is reset after midnight GMT+0.</span> The list of countries and their regional classification is based on the <a class="has-text-warning-dark">United Nations Geoscheme.</a>Sources are<a class="has-text-warning-dark"> provided under "Latest News." </a><a class="has-text-weight-bold has-text-warning-dark">Learn more about Worldometer's COVID-19 data</a></p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <a class="">Report coronavirus cases</a>
+      </div>
+    </section>
+
+    <div class="container mb-6">
+      <!-- Main container -->
+      <nav class="level">
+        <!-- Left side -->
+        <div class="level-left">
+          <!-- tabbed content -->
+          <div class="level-item has-text-centered">
+            <div class="tabs is-toggle is-toggle-rounded is-medium">
+              <ul>
+                <li class="is-active">
+                  <a>
+                   Now
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    Yesterday
+                  </a>
+                </li>
+                <li>
+                  <a>2 Days Ago </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="level-item">
+            <div class="dropdown is-hoverable is-up">
+              <div class="dropdown-trigger">
+                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+                  <span class="has-text-link-dark">Columns</span>
+                  <span class="icon is-small">
+                    <i class="fas fa-angle-up" aria-hidden="true"></i>
+                  </span>
+                </button>
+              </div>
+              <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                <div class="dropdown-content">
+                  <div class="dropdown-item">
+                     <a class="is-size-6"><input type="checkbox" checked="checked"> Total Cases</a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a class="is-size-6"><input type="checkbox" checked="checked"> New Cases</a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a class="is-size-6"><input type="checkbox" checked="checked"> Total Deaths</a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a class="is-size-6"><input type="checkbox" checked="checked"> New Deaths</a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a class="is-size-6"><input type="checkbox" checked="checked"> Total Recovered</a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a class="is-size-6"><input type="checkbox"> New Recovered</a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a class="is-size-6"><input type="checkbox" checked="checked"> Active Cases</a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a class="is-size-6"><input type="checkbox" checked="checked"> Serious, Critical</a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a class="is-size-6"><input type="checkbox" checked="checked"> Tot Cases/1M pop</a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a class="is-size-6"><input type="checkbox" checked="checked"> Deaths/1M pop</a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a class="is-size-6"><input type="checkbox" checked="checked"> Total Tests</a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a class="is-size-6"><input type="checkbox" checked="checked"> Tests/1M pop</a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a class="is-size-6"><input type="checkbox" checked="checked"> Population</a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a class="is-size-6"><input type="checkbox"> 1 Case every X ppl</a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a class="is-size-6"><input type="checkbox"> 1 Death every X ppl</a>
+                  </div>
+                  <div class="dropdown-item">
+                    <a class="is-size-6"><input type="checkbox"> 1 Test every X ppl</a>
+                  </div>
+                
+
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+         
+        
+
+        <!-- Right side -->
+        <div class="level-right">
+          <!-- button -->
+          <div class="level-item has-text-centered">
+            <div class="field has-addons">
+              <p class="control">
+                <input class="input" type="text">
+              </p>
+              <p class="control">
+                <button class="button">
+                  Search
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- table -->
+    <section class="section">
+      <div class="container mb-6">
+        <div class="tabs is-medium is-boxed mb-0">
+          <ul>
+            <li class="is-active"><a>All</a></li>
+            <li><a>Europe</a></li>
+            <li><a>North America</a></li>
+            <li><a>Asia</a></li>
+            <li><a>South America</a></li>
+            <li><a>Africa</a></li>
+            <li><a>Oceania</a></li>
+          </ul>
+        </div>
+
+        <table class="table is-bordered is-hoverable">
+          <thead>
+            <tr>
+              <th align="center">#</th>
+              <th>Country,<br>Other</th>
+              <th>Total<br>Cases</th>
+              <th>New<br>Cases</th>
+              <th>Total<br>Deaths</th>
+              <th>New<br>Deaths</th>
+              <th>Total<br>Recovered</th>
+              <th>Active<br>Cases</th>
+              <th>Serious,<br>Critical</th>
+              <th>Tot Cases/<br>1M pop</th>
+              <th>Deaths/<br>1M pop</th>
+              <th>Total<br>Tests</th>
+              <th>Tests/<br>1M pop</th>
+              <th>Population</th>
+              
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <th></th>
+              <td>Total:</td>
+              <td>117,328,319</td>
+              <td class="has-background-warning">+259,543</td>
+              <td>2,603,187</td>
+              <td class="has-background-danger-dark has-text-white">+3,933</td>
+              <td>92,841,327</td>
+              <td>21,883,805</td>
+              <td>89,768</td>
+              <td>15,052.1</td>
+              <td>334.0</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tfoot>
+          <tbody>
+            <tr>
+              <th>1</th>
+              <td><a class="has-text-primary"><u>Afghanistan</u></a>
+              </td>
+              <td>55,847</td>
+              <td class="has-background-warning">+7</td>
+              <td>2,449</td>
+              <td class="has-background-danger-dark has-text-white">+2</td>
+              <td>49,369</td>
+              <td>4,029</td>
+              <td>1,073</td>
+              <td>1,413</td>
+              <td>62</td>
+              <td>305,242</td>
+              <td>7,724</td>
+              <td><a>39,516,104</a></td>
+            </tr>
+            <tr>
+              <th>2</th>
+              <td><a class="has-text-primary"><u>Albania</u></a>
+              <td>112,078</td>
+              <td class="has-background-warning">+777</td>
+              <td>1,918</td>
+              <td class="has-background-danger-dark has-text-white">+21</td>
+              <td>74,352</td>
+              <td>35,808</td>
+              <td>46</td>
+              <td>38,975</td>
+              <td>667</td>
+              <td>481,365</td>
+              <td>167,393</td>
+              <td><a>2,875,666</a></td>
+            </tr>
+            <tr>
+              <th>3</th>
+              <td><a class="has-text-primary"><u>Algeria</u></a>
+              <td>114,104</td>
+              <td class="has-background-warning">+156</td>
+              <td>3,010</td>
+              <td class="has-background-danger-dark has-text-white">+3</td>
+              <td>78,946</td>
+              <td>32,148</td>
+              <td>21</td>
+              <td>2,571</td>
+              <td>68</td>
+              <td></td>
+              <td></td>
+              <td><a>44,383,171</a></td>
+            </tr>
+            <tr>
+              <th>4</th>
+              <td><a class="has-text-primary"><u>Andorra</u></a>
+                <td>10,998</td>
+                <td></td>
+                <td>112</td>
+                <td></td>
+                <td>10,584</td>
+                <td>302</td>
+                <td>17</td>
+                <td>142,187</td>
+                <td>1,448</td>
+                <td>193,595</td>
+                <td>2,502,877</td>
+                <td><a>77,349</a></td>
+            </tr>
+            <tr>
+              <th>5</th>
+              <td><a class="has-text-primary"><u>Angola</u></a>
+                <td>21,086</td>
+                <td class="has-background-warning">+31</td>
+                <td>514</td>
+                <td class="has-background-danger-dark has-text-white">+2</td>
+                <td>19,647</td>
+                <td>925</td>
+                <td>10</td>
+                <td>628</td>
+                <td>15</td>
+                <td>402,283</td>
+                <td>11,990</td>
+                <td><a>33,551,271</a></td>
+            </tr>
+            <tr class="has-background-grey-lighter">
+              <th>6</th>
+              <td><a class="has-text-primary"><u>Anguilla</u></a>
+                <td>18</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>18</td>
+                <td>0</td>
+                <td></td>
+                <td>1,193</td>
+                <td></td>
+                <td>9,742</td>
+                <td>645,422</td>
+                <td><a>15,094</a></td>
+            </tr>
+            <tr>
+              <th>7</th>
+              <td><a class="has-text-primary"><u>Antigua and Barbuda</u></a>
+                <td>848</td>
+                <td class="has-background-warning">+35</td>
+                <td>21</td>
+                <td></td>
+                <td>410</td>
+                <td>417</td>
+                <td>45</td>
+                <td>8,611</td>
+                <td>213</td>
+                <td>15,268</td>
+                <td>155,038</td>
+                <td><a>98,479</a></td>
+            </tr>
+            <tr>
+              <th>8</th>
+              <td><a class="has-text-primary"><u>Argentina</u></a>
+              <td>2,146,714</td>
+              <td></td>
+              <td>52,870</td>
+              <td></td>
+              <td>1,940,317</td>
+              <td>153,527</td>
+              <td>3,475</td>
+              <td>47,205</td>
+              <td>1,163</td>
+              <td>7,697,759</td>
+              <td>169,268</td>
+              <td><a>45,476,874</a></td>
+            </tr>
+            <tr class="has-background-grey-light">
+              <th></th>
+              <td>World</a>
+                <td>117,328,319</td>
+                <td>+259,543</td>
+                <td>2,603,187</td>
+                <td>+3,933</td>
+                <td>92,841,327</td>
+                <td>21,883,805</td>
+                <td>89,768</td>
+                <td>15,052</td>
+                <td>334.0</td>
+                <td></td>
+                <td></td>
+                <td><a></a></td>
+            </tr>
+            
+          </tbody>
+        </table>
+        <div class="container">
+          <p class="mb-2"><span class="has-background-success-dark has-text-white"> Highlighted in green </span> = all cases have recovered from the infection</p>
+          <p class="mb-5"><span class="has-background-success-dark has-text-white"> Highlighted in grey </span> = all cases have had an outcome (there are no active cases)</p>
+        </div>
+        <div class="container">
+          <p class="ml-6 pl-6">[<a>back to top ↑</a>]</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-spaced">Latest News</h1>
+        <h1 class="subtitle mb-5">March 8 (GMT)</h1>
+      </div>
+      <div class="container content">
+        <h1 class="title is-4">Updates</h1>
+        <ul class="is-size-4-desktop is-size-5-tablet" type="disc">
+          <li class="my-5"><span class="has-text-danger-dark">468 new cases</span> and<span class="has-text-danger-dark"> 1 new death</span> in <a>Qatar [source]</a></li>
+          <li class="my-5"><span class="has-text-danger-dark">2,280 new cases</span> and<span class="has-text-danger-dark"> 63 new deaths</span> in <a>Romania [source]</a></li>
+          <li class="my-5"><span class="has-text-danger-dark">102 new cases</span> and<span class="has-text-danger-dark"> 6 new deaths</span> in <a>Senegal [source]</a></li>
+          <li class="my-5"><span class="has-text-danger-dark">194 new cases</span> and<span class="has-text-danger-dark"> 4 new deaths</span> in <a>Latvia [source]</a></li>
+          <li class="my-5"><span class="has-text-danger-dark">89 new cases</span> and<span class="has-text-danger-dark"> 1 new death</span> in <a>Nepal [source]</a></li>
+          <li class="my-5"><span class="has-text-danger-dark">210 new cases</span> and<span class="has-text-danger-dark"> 6 new deaths</span> in <a>Slovenia [source]</a></li>
+          <li class="my-5"><span class="has-text-danger-dark">1,910 new cases</span> and<span class="has-text-danger-dark"> 19 new deaths</span> in <a>Austria [source]</a></li>
+          <li class="my-5"><span class="has-text-danger-dark">1,018 new cases</span> and<span class="has-text-danger-dark"> 15 new deaths</span> in <a>Libya [source]</a></li>
+          <li class="my-5"><span class="has-text-danger-dark">449 new cases</span> and<span class="has-text-danger-dark"> 3 new deaths</span> in <a>Oman [source]</a></li>
+          <li class="my-5"><span class="has-text-danger-dark">459 new cases</span> in <a>Finland [source]</a></li>
+        </ul>
+        <div class="notification is-success">
+          <button class="delete"></button>
+          <p class="has-text-centered is-size-4-desktop is-size-5-tablet has-text-weight-semibold is-family-code mb-3">Archived:</p>
+          <p class="has-text-centered is-size-4-desktop is-size-5-tablet"><a>February 2020 Coronavirus News Updates</a></p>
+        </div>
+        <div class="container content">
+          <h1 class="has-text-weight-bold">January Timeline:</h1>
+          <ul>
+            <li class="my-5">On January 31, the first 2 novel coronavirus cases in the UK, [18] the first 2 cases in Russia, [20] and the first case in Sweden and in Spain were reported. Canada reported its 4th case.</li>
+            <li class="my-5">On January 30, the novel coronavirus total case count surpassed that for SARS (which affected 8,096 people worldwide).</li>
+            <li class="my-5">On January 30, the World Health Organization declared the coronavirus outbreak a<strong> Global Public Health Emergency.</strong></li>
+            <li class="my-5">On January 30 CDC confirmed the first US case of human to human transmission[17].</li>
+            <li class="my-5">Germany, Japan, Vietnam and the United States have reported cases in patients who didn't personally visit China, but contracted the virus from someone else who had visited Wuhan, China[15]. These cases of human to human transmission are the most worrisome, according to the WHO[16].</li>
+            <li class="my-5">Wuhan (the city where the virus originated) is the largest city in Central China, with a population of over 11 million people. The city, on January 23, shut down transport links. Following Wuhan lock down, the city of Huanggang was also placed in quarantine, and the city of Ezhou closed its train stations. This means than 18 million people have been placed in isolation. The World Health Organization (WHO) said cutting off a city as large as Wuhan is "unprecedented in public health history."[12] and praised China for its incredible commitment to isolate the virus and minimize the spread to other countries.</li>
+
+          </ul>
+        </div>
+        <div class="container content">
+          <h1 class="title mb-3">How dangerous is the virus?</h1>
+          <p>There are three parameters to understand in order to assess the magnitude of the risk posed by this novel coronavirus:</p>
+          <ul>
+            <li class="my-5"><a>Transmission Rate (Ro)</a> - number of newly infected people from a single case</li>
+            <li class="my-5"><a>Case Fatality Rate (CFR)</a> - percent of cases that result in death</li>
+            <li class="my-5">Determine whether <a>asymptomatic transmission</a> is possible</li>
+          </ul>
+          <h1 class="title">How contagious is the Wuhan Coronavirus? (Ro)</h1>
+          <p>The attack rate or transmissibility (how rapidly the disease spreads) of a virus is indicated by its reproductive number (Ro, pronounced R-nought or r-zero), which represents the average number of people to which a single infected person will transmit the virus.
+
+            WHO's estimated (on Jan. 23) Ro to be between 1.4 and 2.5. [13]
+            
+            Other studies have estimated a Ro between 3.6 and 4.0, and between 2.24 to 3.58. [23].
+            
+            Preliminary studies had estimated Ro to be between 1.5 and 3.5. [5][6][7]
+            
+            An outbreak with a reproductive number of below 1 will gradually disappear.
+            
+            For comparison, the Ro for the common flu is 1.3 and for SARS it was 2.0.</p>
+        </div>
+        <div class="container content">
+          <h1 class="title">Comparisons:</h1>
+          <ul>
+            <li class="my-5">Every year an estimated 290,000 to 650,000 people die in the world due to complications from seasonal influenza (flu) viruses. This figure corresponds to 795 to 1,781 deaths per day due to the seasonal flu.</li>
+            <li class="my-5">SARS (November 2002 to July 2003): was a coronavirus that originated from Beijing, China, spread to 29 countries, and resulted in 8,096 people infected with 774 deaths (fatality rate of 9.6%). Considering that SARS ended up infecting 5,237 people in mainland China, Wuhan Coronavirus surpassed SARS on January 29, 2020, when Chinese officials confirmed 5,974 cases of the novel coronavirus (2019-nCoV). One day later, on January 30, 2020 the novel coronavirus cases surpassed even the 8,096 cases worldwide which were the final SARS count in 2003.</li>
+            <li class="my-5">MERS (in 2012) killed 858 people out of the 2,494 infected (fatality rate of 34.4%).</li>
+          </ul>
+          <h1 class="title">Coronavirus Worldometer Sections:</h1>
+          <ul>
+            <li class="my-5"><a class="has-text-danger">Coronavirus Update</a></li>
+            <li class="my-5"><a class="has-text-danger">Case statistics and graphs</a></li>
+            <li class="my-5"><a class="has-text-danger">Death statistics and graphs</a></li>
+            <li class="my-5"><a class="has-text-danger">Mortality Rate</a></li>
+            <li class="my-5"><a class="has-text-danger">Incubation Period</a></li>
+            <li class="my-5"><a class="has-text-danger">Age, Sex, Existing Condition</a></li>
+            <li class="my-5"><a class="has-text-danger">Symptoms</a></li>
+            <li class="my-5"><strong>Countries with cases: </strong><a class="has-text-danger">basic list - detailed list</a></li>
+          </ul>
+          <h1 class="title">Sources</h1>
+          <ol>
+            <li class="my-5"><a class="has-text-primary-dark">Novel Coronavirus (2019-nCoV) situation reports - World Health Organization</a> (WHO)</li>
+            <li class="my-5"><a class="has-text-primary-dark">2019 Novel Coronavirus (2019-nCoV) in the U.S. -. U.S. Centers for Disease Control and Prevention</a> (CDC)</li>
+            <li class="my-5"><a class="has-text-primary-dark">Outbreak Notification</a> - National Health Commission (NHC) of the People’s Republic of China</li>
+            <li class="my-5"><a class="has-text-primary-dark">Novel coronavirus (2019-nCoV)</a> - Australian Government Department of Health</li>
+            <li class="my-5"><a class="has-text-primary-dark">Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic prediction </a> Jonathan M. Read et al, Jan. 23,2020.</li>
+            <li class="my-5"><a class="has-text-primary-dark">Early Transmissibility Assessment of a Novel Coronavirus in Wuhan, China</a> - Maimuna Majumder and Kenneth D. Mandl, Harvard University - Computational Health Informatics Program - Posted: 24 Jan 2020 Last revised: 27 Jan 2020</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer has-background-danger-light">
+      <div class="content has-text-centered">
+        <a><img src="worldometers-logo-footer.png" alt="logo"></a>
+        <p class="my-4"><a class="mx-1 has-text-warning-dark">about</a><a class="mx-1 has-text-warning-dark">faq</a><a class="mx-1 has-text-warning-dark">languages</a><a class="mx-1 has-text-warning-dark">contact</a><a class="mx-1 has-text-warning-dark">report</a><a class="mx-1 has-text-warning-dark">coronavirus</a><a class="mx-1 has-text-warning-dark">cases</a></p>
+        <p>
+          <span class="icon mx-2">
+            <a><i class="fab fa-github fa-lg"></i></a>
+          </span>
+          <span class="icon mx-2">
+            <a><i class="fab fa-instagram fa-lg"></i></a>
+          </span>
+          <span class="icon mx-2">
+            <a><i class="fab fa-twitter fa-lg"></i></a>
+          </span>
+          <span class="icon mx-2">
+            <a><i class="fab fa-facebook fa-lg"></i></a>
+          </span>
+        </p>
+      </div>
+    </footer>
+    
+
+
+
+
+
+  
+
+
+
+ <script src="script.js"></script>
+ 
+</body>
+</html>
